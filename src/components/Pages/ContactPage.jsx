@@ -10,7 +10,7 @@ import ContactInfoWidget from '../Widget/ContactInfoWidget';
 export default function ContactPage() {
   pageTitle('Contact Us');
   useEffect(() => {
-    window.scrollTo(0, 0);
+    window.scrollTo(0,0);
   }, []);
   return (
     <>
@@ -80,7 +80,7 @@ export default function ContactPage() {
           title="Google Map"
         />
       </Div>
-      <Spacing lg="50" md="40" />
+      <Spacing lg="50" md="40"/>
     </>
   );
 }

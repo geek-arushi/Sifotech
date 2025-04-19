@@ -10,7 +10,7 @@ import Spacing from '../Spacing';
 const funfaceData = [
   {
     title: 'Global Happy Clients',
-    factNumber: '40K',
+    factNumber: '70K',
   },
   {
     title: 'Project Completed',

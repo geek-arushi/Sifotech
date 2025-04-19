@@ -18,7 +18,7 @@ import { pageTitle } from '../../helper';
 // Hero Social Links
 const heroSocialLinks = [
   {
-    name: 'Behance',
+    name: 'Instagram',
     links: '/',
   },
   {
@@ -30,7 +30,7 @@ const heroSocialLinks = [
 // FunFact Data
 const funfaceData = [
   {
-    title: 'Global Happy Clients',
+    title: 'arushi',
     factNumber: '40K',
   },
   {
@@ -42,7 +42,7 @@ const funfaceData = [
     factNumber: '245',
   },
   {
-    title: 'Digital products',
+    title: 'dsdghgfhtr',
     factNumber: '550',
   },
 ];

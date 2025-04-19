@@ -43,7 +43,7 @@ export default function Header({ variant }) {
                     style={{ display: `${mobileToggle ? 'block' : 'none'}` }}
                   >
                     <li>
-                      <NavLink to="digital-agency" onClick={() => setMobileToggle(false)}>
+                      <NavLink to="/" onClick={() => setMobileToggle(false)}>
                         Home
                       </NavLink>
                     </li>
@@ -55,14 +55,14 @@ export default function Header({ variant }) {
                         About
                       </NavLink>
                     </li>
-                    <li className="menu-item-has-children">
+                    <li className="">
                       <NavLink
                         to="service"
                         onClick={() => setMobileToggle(false)}
                       >
                         Services
                       </NavLink>
-                      <DropDown>
+                      {/* <DropDown>
                         <ul>
                           <li>
                             <Link
@@ -81,9 +81,9 @@ export default function Header({ variant }) {
                             </Link>
                           </li>
                         </ul>
-                      </DropDown>
+                      </DropDown> */}
                     </li>
-                    <li className="menu-item-has-children">
+                    {/* <li className="menu-item-has-children">
                       <NavLink
                         to="portfolio"
                         onClick={() => setMobileToggle(false)}
@@ -110,8 +110,8 @@ export default function Header({ variant }) {
                           </li>
                         </ul>
                       </DropDown>
-                    </li>
-                    <li className="menu-item-has-children">
+                    </li> */}
+                    <li className="">
                       <NavLink to="blog" onClick={() => setMobileToggle(false)}>
                         Blog
                       </NavLink>
@@ -125,31 +125,31 @@ export default function Header({ variant }) {
                               Blog
                             </Link>
                           </li>
-                          <li>
+                          {/* <li>
                             <Link
                               to="blog/blog-details"
                               onClick={() => setMobileToggle(false)}
                             >
                               Blog Details
                             </Link>
-                          </li>
+                          </li> */}
                         </ul>
                       </DropDown>
                     </li>
                     <li className="menu-item-has-children">
-                      <Link to="/" onClick={() => setMobileToggle(false)}>
-                        Pages
+                      <Link to="/Contact" onClick={() => setMobileToggle(false)}>
+                        Contact
                       </Link>
                       <DropDown>
                         <ul>
-                          <li>
+                          {/* <li>
                             <Link
                               to="/contact"
                               onClick={() => setMobileToggle(false)}
                             >
                               Contact
                             </Link>
-                          </li>
+                          </li> */}
                           <li>
                             <Link
                               to="/team"
@@ -158,30 +158,30 @@ export default function Header({ variant }) {
                               Team
                             </Link>
                           </li>
-                          <li>
+                          {/* <li>
                             <Link
                               to="/team/team-details"
                               onClick={() => setMobileToggle(false)}
                             >
                               Team Details
                             </Link>
-                          </li>
-                          <li>
+                          </li> */}
+                          {/* <li>
                             <Link
                               to="/case-study/case-study-details"
                               onClick={() => setMobileToggle(false)}
                             >
                               Case Study Details
                             </Link>
-                          </li>
-                          <li>
+                          </li> */}
+                          {/* <li>
                             <Link
                               to="/faq"
                               onClick={() => setMobileToggle(false)}
                             >
                               FAQ
                             </Link>
-                          </li>
+                          </li> */}
                         </ul>
                       </DropDown>
                     </li>

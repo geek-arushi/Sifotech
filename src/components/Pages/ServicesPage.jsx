@@ -101,7 +101,7 @@ export default function ServicesPage() {
           </Div>
         </Div>
       </Div>
-      <Spacing lg='150' md='80'/>
+      {/* <Spacing lg='150' md='80'/>
       <Div className="container">
         <SectionHeading
           title='Providing best <br/>pricing for client' 
@@ -119,8 +119,8 @@ export default function ServicesPage() {
           btnText='Apply For Meeting' 
           btnLink='/contact' 
           bgSrc='/images/cta_bg.jpeg'
-        />
-      </Div>
+        /> */}
+      {/* </Div> */}
     </>
   )
 }

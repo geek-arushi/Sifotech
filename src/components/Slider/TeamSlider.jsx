@@ -5,7 +5,7 @@ import Div from '../Div';
 import Team from '../Team';
 const teamData = [
   {
-    memberImage: '/images/member_1.jpeg',
+    memberImage: '/images/member.jpg',
     memberName: 'Melon Bulgery',
     memberDesignation: 'Product Designer',
     memberSocial: {
@@ -16,7 +16,7 @@ const teamData = [
     },
   },
   {
-    memberImage: '/images/member_2.jpeg',
+    memberImage: '/images/member.jpg',
     memberName: 'Olinaz Fushi',
     memberDesignation: 'Product Designer',
     memberSocial: {
@@ -27,7 +27,7 @@ const teamData = [
     },
   },
   {
-    memberImage: '/images/member_3.jpeg',
+    memberImage: '/images/member.jpg',
     memberName: 'David Elone',
     memberDesignation: 'React Developer',
     memberSocial: {
@@ -38,7 +38,7 @@ const teamData = [
     },
   },
   {
-    memberImage: '/images/member_4.jpeg',
+    memberImage: '/images/member.jpg',
     memberName: 'Melina Opole',
     memberDesignation: 'WP Developer',
     memberSocial: {
@@ -49,7 +49,7 @@ const teamData = [
     },
   },
   {
-    memberImage: '/images/member_1.jpeg',
+    memberImage: '/images/member.jpg',
     memberName: 'Melon Bulgery',
     memberDesignation: 'Product Designer',
     memberSocial: {

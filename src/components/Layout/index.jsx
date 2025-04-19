@@ -6,7 +6,7 @@ import Header from '../Header';
 
 export default function Layout({ headerVariant }) {
   useEffect(() => {
-    window.scrollTo(0, 0);
+    window.scrollTo(0,0);
   }, []);
   return (
     <>

@@ -4,37 +4,37 @@ const postData = [
     title: 'How to keep fear from ruining your art business with confident',
     postHref: '/blog/blog-details',
     subtitle:
-      'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium lorema doloremque laudantium, totam rem aperiam, eaque ipsa quae...',
+      'The first step is to acknowledge your fear rather than suppress it. It’s completely normal to feel uncertain, especially when your work is so personal. Recognising those fears allows you to move past them. Instead of waiting for the perfect moment, keep creating — even when you’re unsure.....',
     authorName: 'Arino Admin',
     authorImg: '/images/avatar_2.jpeg',
     authorDesignation: 'London, United Kindom',
     date: '07',
     month: 'Mar',
-    year: '2022',
+    year: '2025',
   },
   {
     title: 'A.I becomes more powerful day by day with new approaches',
     postHref: '/blog/blog-details',
     subtitle:
-      'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium lorema doloremque laudantium, totam rem aperiam, eaque ipsa quae...',
+      'Artificial Intelligence is no longer just a buzzword — it’s a rapidly evolving force shaping the future of every industry. With new approaches emerging daily, from deep learning to generative models and adaptive systems, A.I.....',
     authorName: 'David Milar',
     authorImg: '/images/avatar_3.jpeg',
     authorDesignation: 'London, United Kindom',
     date: '15',
     month: 'Mar',
-    year: '2022',
+    year: '2025',
   },
   {
     title: 'Local SEO is a very essential role play for new websites',
     postHref: '/blog/blog-details',
     subtitle:
-      'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium lorema doloremque laudantium, totam rem aperiam, eaque ipsa quae...',
+      'Local SEO plays a crucial role in helping new websites gain visibility in their immediate market. When you are just starting out, getting found by nearby customers can make all the difference. Optimising your site for local search ensures that people in your area can easily discover your business',
     authorName: 'Jhone Doe',
     authorImg: '/images/avatar_4.jpeg',
     authorDesignation: 'London, United Kindom',
     date: '20',
     month: 'Mar',
-    year: '2022',
+    year: '2025',
   },
 ];
 
@@ -48,7 +48,7 @@ export default function PostList() {
               <div className="cs-posted_by">
                 <span className="cs-primary_font">{item.date}</span>
                 <span>
-                  {item.month} <br />
+                  {item.month} <br/>
                   {item.year}
                 </span>
               </div>

@@ -16,7 +16,7 @@ import LogoList from '../LogoList';
 import PostList from '../Post/PostList';
 const heroSocialLinks = [
   {
-    name: 'Behance',
+    name: 'Instagram',
     links: '/',
   },
   {
@@ -26,19 +26,19 @@ const heroSocialLinks = [
 ];
 const funfaceData = [
   {
-    title: 'Digital products',
+    title: 'Digital Products',
     factNumber: '550',
   },
   {
-    title: 'Global happy clients',
+    title: 'Clients Around the Globe',
     factNumber: '40K',
   },
   {
-    title: 'Project completed',
+    title: 'Successfull Projects',
     factNumber: '50k',
   },
   {
-    title: 'Team members',
+    title: 'Team Members',
     factNumber: '250',
   },
 ];
@@ -148,7 +148,7 @@ export default function DigitalAgencyHome() {
       {/* Start Hero Section */}
       <Hero4
         title="We Are <span>S</span>ifotech<br />Digital Agency"
-        subtitle="We deliver best problem solving solution for our client and provide finest finishing product in present and upcoming future."
+        subtitle="Solving real problems with creative digital solutions – we design, develop, and deliver top-tier results for today and tomorrow.s"
         scrollDownId="#service"
         socialLinksHeading="Follow Us"
         heroSocialLinks={heroSocialLinks}
