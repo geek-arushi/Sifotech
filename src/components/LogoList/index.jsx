@@ -7,21 +7,26 @@ const partnerLogos = [
     alt: 'Partner',
   },
   {
-    src: '/images/partner_3.svg',
+    src: '/images/partner_2.png',
     alt: 'Partner',
   },
   {
-    src: '/images/partner_3.svg',
+    src: '/images/partner_3.png',
     alt: 'Partner',
   },
   {
-    src: '/images/partner_4.svg',
+    src: '/images/partner_4.png',
     alt: 'Partner',
   },
   {
-    src: '/images/partner_5.svg',
+    src: '/images/partner_5.png',
     alt: 'Partner',
   },
+  {
+    src: '/images/partner_6.png',
+    alt: 'Partner',
+  },
+  
 ];
 
 export default function LogoList() {

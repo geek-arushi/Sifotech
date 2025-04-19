@@ -31,15 +31,15 @@ const funfaceData = [
   },
   {
     title: 'Clients Around the Globe',
-    factNumber: '40K',
+    factNumber: '10K',
   },
   {
     title: 'Successfull Projects',
-    factNumber: '50k',
+    factNumber: '25k',
   },
   {
     title: 'Team Members',
-    factNumber: '250',
+    factNumber: '30',
   },
 ];
 const serviceData1 = [
@@ -216,7 +216,7 @@ export default function DigitalAgencyHome() {
       {/* End About Section */}
 
       {/* Start Projects Section */}
-      <Spacing lg="145" md="80" />
+      {/* <Spacing lg="145" md="80" />
       <Div className="container">
         <SectionHeading
           title="Portfolio to explore"
@@ -262,7 +262,7 @@ export default function DigitalAgencyHome() {
             </>
           )}
         </Div>
-      </Div>
+      </Div> */}
       {/* End Projects Section */}
 
       {/* Start Awards Section */}
@@ -271,7 +271,7 @@ export default function DigitalAgencyHome() {
         <Div className="row">
           <Div className="col-xl-4">
             <SectionHeading
-              title="We get multiple awards"
+              title="We get multiple projects"
               subtitle="Our Awards"
               variant="cs-style1"
             />

@@ -6,28 +6,28 @@ import Timeline from '../Timeline';
 const timelineData = [
   [
     {
-      year: '2019',
-      name: 'Google awards',
+      year: '2025',
+      name: 'Digital Marketing',
       position: 'Website of the day',
       type: 'Mobile exelence',
     },
     {
-      year: '2021',
-      name: 'CSS awards design',
+      year: '2025',
+      name: 'UI/UX design',
       position: 'Honorable mention',
       type: 'Desktop exelence',
     },
   ],
   [
     {
-      year: '2020',
-      name: 'New technology innovation',
+      year: '2025',
+      name: 'Technology',
       position: 'Honorable mention',
       type: 'Desktop exelence',
     },
     {
-      year: '2022',
-      name: 'UI/UX design of the month',
+      year: '2025',
+      name: 'Creative Design',
       position: 'Website of the day',
       type: 'Mobile exelence',
     },

@@ -77,7 +77,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
       <Div className="container">
         <Div className="cs-bottom_footer">
           <Div className="cs-bottom_footer_left">
-            <Div className="cs-copyright">Copyright © 2025 Corcus.in.</Div>
+            <Div className="cs-copyright">Copyright © 2025 Sifotech.</Div>
           </Div>
           <Div className="cs-bottom_footer_right">
             <MenuWidget menuItems={copyrightLinks} variant=" cs-style2" />

@@ -8,7 +8,7 @@ const testimonialData = [
   {
     testimonialThumb: '/images/testimonial_1.jpeg',
     testimonialText:
-      'Corucu Studio LLP has been instrumental in transforming our business. With their expert digital marketing strategies, our restaurant sales increased by 50%. Thanks to their efforts, we’ve successfully opened 7 franchises across India. Truly grateful for their dedication and results-driven approach.',
+      'Sifotech has been instrumental in transforming our business. With their expert digital marketing strategies, our restaurant sales increased by 50%. Thanks to their efforts, we’ve successfully opened 7 franchises across India. Truly grateful for their dedication and results-driven approach.',
     avatarName: 'Parmod Kumar',
     avatarDesignation: 'Old Champaran Mutton House',
     ratings: '4',
@@ -16,7 +16,7 @@ const testimonialData = [
   {
     testimonialThumb: '/images/testimonial_2.jpeg',
     testimonialText:
-      'Corcus took our digital presence to new heights with their seamless marketing strategies. They optimized our weosite, created amazing content, and ran ads that really resonated with bur audience.Sales and engagement skyrocketed, and thanks to their expertise, we ve been able to expand globally.',
+      'Sifotech took our digital presence to new heights with their seamless marketing strategies. They optimized our weosite, created amazing content, and ran ads that really resonated with bur audience.Sales and engagement skyrocketed, and thanks to their expertise, we ve been able to expand globally.',
     avatarName: 'Nand Kumar Patil',
     avatarDesignation: 'Fresh O Need (CEO)',
     ratings: '5',
@@ -24,7 +24,7 @@ const testimonialData = [
   {
     testimonialThumb: '/images/testimonial_3.jpeg',
     testimonialText:
-      'Corucu Studio LLP has done an excellent job with our social media management, content creation, and lead generation. Their creative approach and consistent efforts have significantly increased our online visibility and brought in quality leads. We’re extremely happy with the results and their professional service.',
+      'Sifotech has done an excellent job with our social media management, content creation, and lead generation. Their creative approach and consistent efforts have significantly increased our online visibility and brought in quality leads. We’re extremely happy with the results and their professional service.',
     avatarName: 'Dr. Punkesh',
     avatarDesignation: 'Advance Skin Hair and Laser Clinic',
     ratings: '4.5',
@@ -32,7 +32,7 @@ const testimonialData = [
   {
     testimonialThumb: '/images/testimonial_1.jpeg',
     testimonialText:
-      'Corucu Studio LLP has been a valuable partner for Haridwar Farms. Their content creation and strategic marketing efforts have greatly boosted the sales of our organic fertilizers. Their team understands our vision and delivers results with creativity and consistency. Highly recommended!',
+      'Sifotech has been a valuable partner for Haridwar Farms. Their content creation and strategic marketing efforts have greatly boosted the sales of our organic fertilizers. Their team understands our vision and delivers results with creativity and consistency. Highly recommended!',
     avatarName: ' Mantu Mayank',
     avatarDesignation: 'Haridwar Farms',
     ratings: '4.0',
