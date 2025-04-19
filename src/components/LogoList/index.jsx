@@ -3,11 +3,11 @@ import Div from '../Div';
 import './logolist.scss';
 const partnerLogos = [
   {
-    src: '/images/partner_1.svg',
+    src: '/images/partner_1.png',
     alt: 'Partner',
   },
   {
-    src: '/images/partner_2.svg',
+    src: '/images/partner_3.svg',
     alt: 'Partner',
   },
   {
