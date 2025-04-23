@@ -115,16 +115,16 @@ export default function Header({ variant }) {
                       <NavLink to="blog" onClick={() => setMobileToggle(false)}>
                         Blog
                       </NavLink>
-                      <DropDown>
-                        <ul>
-                          <li>
+                      {/* <DropDown> */}
+                        {/* <ul> */}
+                          {/* <li>
                             <Link
                               to="blog"
                               onClick={() => setMobileToggle(false)}
                             >
                               Blog
                             </Link>
-                          </li>
+                          </li> */}
                           {/* <li>
                             <Link
                               to="blog/blog-details"
@@ -133,15 +133,15 @@ export default function Header({ variant }) {
                               Blog Details
                             </Link>
                           </li> */}
-                        </ul>
-                      </DropDown>
+                        {/* </ul> */}
+                      {/* </DropDown> */}
                     </li>
                     <li className="">
                       <Link to="/Contact" onClick={() => setMobileToggle(false)}>
                         Contact
                       </Link>
-                      <DropDown>
-                        <ul>
+                      {/* <DropDown>
+                        <ul> */}
                           {/* <li>
                             <Link
                               to="/contact"
@@ -182,8 +182,8 @@ export default function Header({ variant }) {
                               FAQ
                             </Link>
                           </li> */}
-                        </ul>
-                      </DropDown>
+                        {/* </ul>
+                      </DropDown> */}
                     </li>
                   </ul>
                   <span
