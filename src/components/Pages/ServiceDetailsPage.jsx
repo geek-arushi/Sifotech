@@ -37,7 +37,7 @@ export default function ServiceDetailsPage() {
             <IconBox
               icon='/images/icons/service_icon_1.svg'
               title='Sketching'
-              subtitle='Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium also a doloremque laudantium, totam remain beatae vitae dictaro enim ipsam sunt explicabo.'
+              subtitle='We begin with rough sketches and ideation to explore concepts, understand user needs, and lay the foundation for intuitive design. This stage allows us to think freely, fail fast, and innovate early.'
             />
             <Spacing lg='30' md='30'/>
           </Div>
@@ -45,7 +45,7 @@ export default function ServiceDetailsPage() {
             <IconBox
               icon='/images/icons/service_icon_2.svg'
               title='Wireframing'
-              subtitle='Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium also a doloremque laudantium, totam remain beatae vitae dictaro enim ipsam sunt explicabo.'
+              subtitle='Here, structure meets purpose. We build low-fidelity wireframes to map out the layout, flow, and user interactions—ensuring every element serves a functional role before the visuals begin.'
             />
             <Spacing lg='30' md='30'/>
           </Div>
@@ -53,7 +53,7 @@ export default function ServiceDetailsPage() {
             <IconBox
               icon='/images/icons/service_icon_3.svg'
               title='Prototyping'
-              subtitle='Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium also a doloremque laudantium, totam remain beatae vitae dictaro enim ipsam sunt explicabo.'
+              subtitle='We bring ideas to life through clickable prototypes that simulate real-user experiences. This step helps us validate usability, collect feedback, and refine interactions—before any code is written.'
             />
             <Spacing lg='30' md='30'/>
           </Div>

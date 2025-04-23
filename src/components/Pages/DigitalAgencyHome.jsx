@@ -15,12 +15,12 @@ import Cta from '../Cta';
 import LogoList from '../LogoList';
 import PostList from '../Post/PostList';
 const heroSocialLinks = [
+  // {
+  //   name: 'Instagram',
+  //   links: '/',
+  // },
   {
-    name: 'Instagram',
-    links: '/',
-  },
-  {
-    name: 'Twitter',
+    name: 'mail',
     links: '/',
   },
 ];
