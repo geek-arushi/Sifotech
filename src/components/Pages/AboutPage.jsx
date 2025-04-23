@@ -62,7 +62,7 @@ export default function AboutPage() {
           </Div>
           <Div className="col-lg-5 offset-xl-2">
             <img
-              src="/images/about_img_1.jpeg"
+              src="/images/about_img_1.jpg"
               alt="About"
               className="w-100 cs-radius_15"
             />
@@ -70,7 +70,7 @@ export default function AboutPage() {
           </Div>
           <Div className="col-lg-7">
             <img
-              src="/images/about_img_2.jpeg"
+              src="/images/about_img_2.jpg"
               alt="About"
               className="w-100 cs-radius_15"
             />
@@ -78,7 +78,7 @@ export default function AboutPage() {
           </Div>
           <Div className="col-lg-5">
             <img
-              src="/images/about_img_3.jpeg"
+              src="/images/about_img_3.jpg"
               alt="About"
               className="w-100 cs-radius_15"
             />
@@ -107,7 +107,7 @@ export default function AboutPage() {
             <Div className="cs-image_layer cs-style1">
               <Div className="cs-image_layer_in">
                 <img
-                  src="/images/about_img_4.jpeg"
+                  src="/images/about_img_4.jpg"
                   alt="About"
                   className="w-100 cs-radius_15"
                 />
