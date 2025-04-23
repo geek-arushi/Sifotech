@@ -39,7 +39,7 @@ export default function ServicesPage() {
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6'>
                   <Card
-                    title='UI/UX design'
+                    title='Performancr Marketing'
                     link='/service/ui-ux-design'
                     src='/images/service_1.jpeg'
                     alt='Service'
@@ -49,7 +49,7 @@ export default function ServicesPage() {
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6'>
                   <Card
-                    title='React.js Development'
+                    title='Social Media Marketing'
                     link='/service/reactjs-development'
                     src='/images/service_2.jpeg'
                     alt='Service'
@@ -58,7 +58,7 @@ export default function ServicesPage() {
                 </Div>
                 <Div className='col-lg-3 col-sm-6'>
                   <Card
-                    title='Digital Marketing'
+                    title='Brand Strategy & Consulting'
                     link='/service/digital-marketing'
                     src='/images/service_3.jpeg'
                     alt='Service'
@@ -68,7 +68,7 @@ export default function ServicesPage() {
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6'>
                   <Card
-                    title='Technology'
+                    title='SEO'
                     link='/service/technology'
                     src='/images/service_4.jpeg'
                     alt='Service'
@@ -79,7 +79,7 @@ export default function ServicesPage() {
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6'>
                   <Card
-                    title='Consultancy'
+                    title='Content Marketing'
                     link='/service/consultancy'
                     src='/images/service_5.jpeg'
                     alt='Service'

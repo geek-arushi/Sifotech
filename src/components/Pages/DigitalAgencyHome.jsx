@@ -27,15 +27,15 @@ const heroSocialLinks = [
 const funfaceData = [
   {
     title: 'Digital Products',
-    factNumber: '550',
+    factNumber: '150',
   },
   {
     title: 'Clients Around the Globe',
-    factNumber: '10K',
+    factNumber: '2K',
   },
   {
     title: 'Successfull Projects',
-    factNumber: '25k',
+    factNumber: '5k',
   },
   {
     title: 'Team Members',
@@ -152,8 +152,8 @@ export default function DigitalAgencyHome() {
         scrollDownId="#service"
         socialLinksHeading="Follow Us"
         heroSocialLinks={heroSocialLinks}
-        phoneNumber="+044 546664"
-        email="info@arino.com"
+        phoneNumber="contactapp.com"
+        email="sifotech.com"
       />
       {/* End Hero Section */}
 
@@ -272,7 +272,7 @@ export default function DigitalAgencyHome() {
           <Div className="col-xl-4">
             <SectionHeading
               title="We get multiple projects"
-              subtitle="Our Awards"
+              subtitle="Our Services"
               variant="cs-style1"
             />
             <Spacing lg="90" md="45" />

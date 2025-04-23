@@ -7,29 +7,29 @@ const timelineData = [
   [
     {
       year: '2025',
-      name: 'Digital Marketing',
-      position: 'Website of the day',
-      type: 'Mobile exelence',
+      name: 'Performance Marketing',
+      position: 'Data-driven approach to maximize ROI across paid channels',
+      type: 'A/B testing for creatives, landing pages, and ad copies',
     },
     {
       year: '2025',
-      name: 'UI/UX design',
-      position: 'Honorable mention',
-      type: 'Desktop exelence',
+      name: 'SMM',
+      position: 'Reels, carousels, and UGC strategies to boost organic reach',
+      type:'Influencer collaborations to expand brand trust and reach',
     },
   ],
   [
     {
       year: '2025',
-      name: 'Technology',
-      position: 'Honorable mention',
-      type: 'Desktop exelence',
+      name: 'SEO',
+      position: 'Keyword research that aligns with user intent and search trends',
+      type: 'Technical SEO audits for faster indexing and crawlability',
     },
     {
       year: '2025',
-      name: 'Creative Design',
-      position: 'Website of the day',
-      type: 'Mobile exelence',
+      name: 'Brand Strategy',
+      position: 'Brand positioning that communicates your unique value proposition',
+      type: 'Brand architecture for product/service segmentation',
     },
   ],
   [
