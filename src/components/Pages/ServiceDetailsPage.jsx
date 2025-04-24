@@ -73,27 +73,31 @@ export default function ServiceDetailsPage() {
             <Spacing lg='50' md='30'/>
             <Div className="row">
               <Div className="col-lg-6">
-                <Button btnLink='/service/service-details' btnText='Web page design' variant='cs-type2'/>
+                <Button btnLink='/service/service-details' btnText='Performance Optimization' variant='cs-type2'/>
                 <Spacing lg='20' md='10'/>
-                <Button btnLink='/service/service-details' btnText='eCommerce design' variant='cs-type2'/>
+                <Button btnLink='/service/service-details' btnText='Cross-Platform App Development' variant='cs-type2'/>
                 <Spacing lg='20' md='10'/>
-                <Button btnLink='/service/service-details' btnText='Landing page' variant='cs-type2'/>
+                <Button btnLink='/service/service-details' btnText='Native App Development' variant='cs-type2'/>
                 <Spacing lg='20' md='10'/>
-                <Button btnLink='/service/service-details' btnText='Email template' variant='cs-type2'/>
+                <Button btnLink='/service/service-details' btnText='Progressive Web Apps (PWAs)' variant='cs-type2'/>
                 <Spacing lg='20' md='10'/>
-                <Button btnLink='/service/service-details' btnText='Application design' variant='cs-type2'/>
+                <Button btnLink='/service/service-details' btnText='CMS-Based Solutions' variant='cs-type2'/>
                 <Spacing lg='20' md='10'/>
-                <Button btnLink='/service/service-details' btnText='Illustration' variant='cs-type2'/>
+                <Button btnLink='/service/service-details' btnText='Legacy System Modernization' variant='cs-type2'/>
                 <Spacing lg='0' md='10'/>
               </Div>
               <Div className="col-lg-6">
-                <Button btnLink='/service/service-details' btnText='Infographic design' variant='cs-type2'/>
+                <Button btnLink='/service/service-details' btnText='IT Consulting & Digital Transformation' variant='cs-type2'/>
                 <Spacing lg='20' md='10'/>
-                <Button btnLink='/service/service-details' btnText='Mobile apps design' variant='cs-type2'/>
+                <Button btnLink='/service/service-details' btnText='Maintenance & Support' variant='cs-type2'/>
                 <Spacing lg='20' md='10'/>
-                <Button btnLink='/service/service-details' btnText='Banner, brochure, card' variant='cs-type2'/>
+                <Button btnLink='/service/service-details' btnText='DevOps & Cloud Services' variant='cs-type2'/>
                 <Spacing lg='20' md='10'/>
-                <Button btnLink='/service/service-details' btnText='Other design' variant='cs-type2'/>
+                <Button btnLink='/service/service-details' btnText='Web Development' variant='cs-type2'/>
+                <Spacing lg='20' md='10'/>
+                <Button btnLink='/service/service-details' btnText='Custom Software Development' variant='cs-type2'/>
+                <Spacing lg='20' md='10'/>
+                <Button btnLink='/service/service-details' btnText='Mobile App Development' variant='cs-type2'/>
                 <Spacing lg='20' md='10'/>
               </Div>
             </Div>
