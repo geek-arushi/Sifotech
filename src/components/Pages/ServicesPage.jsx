@@ -12,7 +12,7 @@ import Spacing from '../Spacing'
 export default function ServicesPage() {
   pageTitle('Service');
   useEffect(() => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0,0)
   }, [])
   return (
     <>
