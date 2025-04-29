@@ -204,7 +204,7 @@ export default function DigitalAgencyHome() {
             <Div className="col-lg-7 offset-xl-1">
               <Div className="cs-half_screen">
                 <VideoModal
-                  videoSrc="https://www.youtube.com/watch?v=VcaAVWtP48A"
+                  videoSrc="images/LOGo.mp4"
                   bgUrl="/images/video_bg.jpeg"
                   variant="cs-style1 cs-size1"
                 />

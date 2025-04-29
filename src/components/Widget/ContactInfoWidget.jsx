@@ -12,11 +12,11 @@ export default function ContactInfoWidget({withIcon, title}) {
         </li> */}
         <li>
           {withIcon?<span className='cs-accent_color'><Icon icon="mdi:envelope" /></span>:''}
-          sifotech.com
+          hr@sifotech.co.uk
         </li>
         <li>
           {withIcon?<span className='cs-accent_color'><Icon icon="mdi:envelope" /></span>:''}
-          contactapp.com
+          contact@sifotech.co.uk
         </li>
         {/* <li>
           {withIcon?<span className='cs-accent_color'><Icon icon="mdi:map-marker" /></span>:''}
