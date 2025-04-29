@@ -106,7 +106,7 @@ export default function ServicesPage() {
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6'>
                   <Card
-                    title='Custom Software Development'
+                    title='Legacy System Modernization'
                     link='/service/ui-ux-design'
                     src='/images/service_1.jpeg'
                     alt='Service'
@@ -116,7 +116,7 @@ export default function ServicesPage() {
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6'>
                   <Card
-                    title='Mobile App Development'
+                    title='CMS-Based Solutions'
                     link='/service/reactjs-development'
                     src='/images/service_2.jpeg'
                     alt='Service'
@@ -125,7 +125,7 @@ export default function ServicesPage() {
                 </Div>
                 <Div className='col-lg-3 col-sm-6'>
                   <Card
-                    title='Web Development'
+                    title='Progressive Web Apps (PWAs)'
                     link='/service/digital-marketing'
                     src='/images/service_3.jpeg'
                     alt='Service'
@@ -135,7 +135,7 @@ export default function ServicesPage() {
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6'>
                   <Card
-                    title='DevOps & Cloud Services'
+                    title='Native App Development'
                     link='/service/technology'
                     src='/images/service_4.jpeg'
                     alt='Service'
@@ -146,7 +146,7 @@ export default function ServicesPage() {
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6'>
                   <Card
-                    title='Maintenance & Support'
+                    title='Cross-Platform App Development'
                     link='/service/consultancy'
                     src='/images/service_5.jpeg'
                     alt='Service'
@@ -156,7 +156,7 @@ export default function ServicesPage() {
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6'>
                   <Card
-                    title='IT Consulting & Digital Transformation'
+                    title='Performance Optimization'
                     link='/service/creative-design'
                     src='/images/service_6.jpeg'
                     alt='Service'
