@@ -8,9 +8,9 @@ const testimonialData = [
   {
     testimonialThumb: '/images/testimonial_1.jpeg',
     testimonialText:
-      'Sifotech has been instrumental in transforming our business. With their expert digital marketing strategies, our restaurant sales increased by 50%. Thanks to their efforts, we’ve successfully opened 7 franchises across India. Truly grateful for their dedication and results-driven approach.',
-    avatarName: 'Parmod Kumar',
-    avatarDesignation: 'Old Champaran Mutton House',
+      'The Tawa Pulao was amazing! It had a perfect balance of spices, with the right amount of tanginess and smokiness. The vegetables retained their crunch, and the rice was perfectly cooked. It was like enjoying street-style pulao from Juhu Beach, but in the comfort of my home!',
+    avatarName: 'Neha Desai,Dentist ',
+    avatarDesignation: 'London',
     ratings: '4',
   },
   {
@@ -32,9 +32,9 @@ const testimonialData = [
   {
     testimonialThumb: '/images/testimonial_1.jpeg',
     testimonialText:
-      'Sifotech has been a valuable partner for Haridwar Farms. Their content creation and strategic marketing efforts have greatly boosted the sales of our organic fertilizers. Their team understands our vision and delivers results with creativity and consistency. Highly recommended!',
-    avatarName: ' Mantu Mayank',
-    avatarDesignation: 'Haridwar Farms',
+      'Corcus Studio LLP delivered exactly what we needed-an effective website, high-converting landing page, and targeted ad management. Their work has helped us generate quality leads specifically for our Salesforce courses. Their expertise and attention to detail have truly boosted our business.',
+    avatarName: 'Ashish',
+    avatarDesignation: 'Marshal Technologyl',
     ratings: '4.0',
   },
 ];

@@ -152,8 +152,8 @@ export default function DigitalAgencyHome() {
         scrollDownId="#service"
         socialLinksHeading="Follow Us"
         heroSocialLinks={heroSocialLinks}
-        phoneNumber="contactapp.com"
-        email="sifotech.com"
+        phoneNumber="contact@sifotech.co.uk"
+        email="hr@sifotech.co.uk"
       />
       {/* End Hero Section */}
 
