@@ -13,10 +13,10 @@ const postData = [
     year: '2025',
   },
   {
-    title: 'A.I becomes more powerful day by day with new approaches',
-    postHref: '/blog/blog-details',
+    title: 'Why Your Business needs Social Media marketing in 2025',
+    postHref: '/blog2',
     subtitle:
-      'Artificial Intelligence is no longer just a buzzword — it’s a rapidly evolving force shaping the future of every industry. With new approaches emerging daily, from deep learning to generative models and adaptive systems, A.I.....',
+      'Social Media Marketing is not just about posting photos anymore—its how modern businesses connect grow and stay relevant. Whether you are a local store or an online brand being active on platforms like Instagram Facebook and LinkedIn gives you visibility trust and real engagement.',
     authorName: 'David Milar',
     authorImg: '/images/avatar_3.jpeg',
     authorDesignation: 'London, United Kindom',
@@ -26,7 +26,7 @@ const postData = [
   },
   {
     title: 'Local SEO is a very essential role play for new websites',
-    postHref: '/blog/blog-details',
+    postHref: '/blog3',
     subtitle:
       'Local SEO plays a crucial role in helping new websites gain visibility in their immediate market. When you are just starting out, getting found by nearby customers can make all the difference. Optimising your site for local search ensures that people in your area can easily discover your business',
     authorName: 'Jhone Doe',
