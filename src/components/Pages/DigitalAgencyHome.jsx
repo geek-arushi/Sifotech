@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import Hero4 from '../Hero/Hero4';
 import { pageTitle } from '../../helper';
+import Button from '../Button';
 import Div from '../Div';
 import FunFact2 from '../FunFact/FunFact2';
 import Spacing from '../Spacing';
 import SectionHeading from '../SectionHeading';
 import MovingText2 from '../MovingText/MovingText2';
-import VideoModal from '../VideoModal';
 import Portfolio from '../Portfolio';
 import { Icon } from '@iconify/react';
 import TimelineSlider from '../Slider/TimelineSlider';
@@ -14,16 +14,14 @@ import TestimonialSlider from '../Slider/TestimonialSlider';
 import Cta from '../Cta';
 import LogoList from '../LogoList';
 import PostList from '../Post/PostList';
+
 const heroSocialLinks = [
-  // {
-  //   name: 'Instagram',
-  //   links: '/',
-  // },
   {
     name: 'mail',
     links: '/',
   },
 ];
+
 const funfaceData = [
   {
     title: 'Digital Products',
@@ -42,103 +40,23 @@ const funfaceData = [
     factNumber: '30',
   },
 ];
+
 const serviceData1 = [
-  {
-    title: 'UI/UX Design',
-    href: '/service/service-details',
-  },
-  {
-    title: 'Marketing',
-    href: '/service/service-details',
-  },
-  {
-    title: 'Branding',
-    href: '/service/service-details',
-  },
+  { title: 'UI/UX Design', href: '/service/service-details' },
+  { title: 'Marketing', href: '/service/service-details' },
+  { title: 'Branding', href: '/service/service-details' },
 ];
+
 const serviceData2 = [
-  {
-    title: 'SEO',
-    href: '/service/service-details',
-  },
-  {
-    title: 'App design',
-    href: '/service/service-details',
-  },
-  {
-    title: 'React Developer',
-    href: '/service/service-details',
-  },
-];
-const portfolioData = [
-  {
-    title: 'Colorful Art Work',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_11.jpeg',
-    category: 'ui_ux_design',
-  },
-  {
-    title: 'Colorful Art Work',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_12.jpeg',
-    category: 'logo_design',
-  },
-  {
-    title: 'Colorful Art Work',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_13.jpeg',
-    category: 'web_design',
-  },
-  {
-    title: 'Colorful Art Work',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_14.jpeg',
-    category: 'mobile_apps',
-  },
-  {
-    title: 'Colorful Art Work',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_15.jpeg',
-    category: 'ui_ux_design',
-  },
-  {
-    title: 'Colorful Art Work',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_16.jpeg',
-    category: 'web_design',
-  },
-  {
-    title: 'Colorful Art Work',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_11.jpeg',
-    category: 'ui_ux_design',
-  },
-  {
-    title: 'Colorful Art Work',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_12.jpeg',
-    category: 'logo_design',
-  },
-  {
-    title: 'Colorful Art Work',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_13.jpeg',
-    category: 'web_design',
-  },
+  { title: 'SEO', href: '/service/service-details' },
+  { title: 'App design', href: '/service/service-details' },
+  { title: 'React Developer', href: '/service/service-details' },
 ];
 
 export default function DigitalAgencyHome() {
   const [itemShow, setItemShow] = useState(6);
   pageTitle('Digital Agency');
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -167,25 +85,13 @@ export default function DigitalAgencyHome() {
       </Div>
       {/* End Funfact Section */}
 
-      {/* Start Services Section */}
-      <Spacing lg="145" md="80" />
-      <Div className="container">
-        <SectionHeading
-          title="What we provide"
-          subtitle="Services"
-          variant="cs-style1 text-center"
-        />
-        <Spacing lg="65" md="45" />
-      </Div>
-      {/* End Services Section */}
-
       {/* Start Moving Text Section */}
       <MovingText2 data={serviceData1} />
       <Spacing lg="20" md="10" />
       <MovingText2 reverseDirection data={serviceData2} />
       {/* End Moving Text Section */}
 
-      {/* Start About Section */}
+      {/* Start About Section with Media Player */}
       <Div className="cs-shape_wrap_4">
         <Div className="cs-shape_4"></Div>
         <Div className="cs-shape_4"></Div>
@@ -202,11 +108,16 @@ export default function DigitalAgencyHome() {
               <Spacing lg="45" md="45" />
             </Div>
             <Div className="col-lg-7 offset-xl-1">
-              <Div className="cs-half_screen">
-                <VideoModal
-                  videoSrc="images/LOGo.mp4"
-                  bgUrl="/images/video_bg.jpeg"
-                  variant="cs-style1 cs-size1"
+              <Div className="cs-radius_15 overflow-hidden">
+                <video
+                  className="w-100 cs-radius_15"
+                  src="/video/LOGO.mp4"
+                  controls
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
                 />
               </Div>
             </Div>
@@ -214,56 +125,6 @@ export default function DigitalAgencyHome() {
         </Div>
       </Div>
       {/* End About Section */}
-
-      {/* Start Projects Section */}
-      {/* <Spacing lg="145" md="80" />
-      <Div className="container">
-        <SectionHeading
-          title="Portfolio to explore"
-          subtitle="Latest Projects"
-          variant="cs-style1 text-center"
-        />
-        <Spacing lg="90" md="45" />
-        <Div className="row">
-          {portfolioData.slice(0, itemShow).map((item, index) => (
-            <Div
-              className={`${
-                index === 0 || index === 3 || index === 4
-                  ? 'col-lg-8'
-                  : 'col-lg-4'
-              }`}
-              key={index}
-            >
-              <Portfolio
-                title={item.title}
-                subtitle={item.subtitle}
-                href={item.href}
-                src={item.src}
-                variant="cs-style1 cs-type1"
-              />
-              <Spacing lg="25" md="25" />
-            </Div>
-          ))}
-        </Div>
-
-        <Div className="text-center">
-          {portfolioData.length <= itemShow ? (
-            ''
-          ) : (
-            <>
-              <Spacing lg="65" md="40" />
-              <span
-                className="cs-text_btn"
-                onClick={() => setItemShow(itemShow + 3)}
-              >
-                <span>Load More</span>
-                <Icon icon="bi:arrow-right" />
-              </span>
-            </>
-          )}
-        </Div>
-      </Div> */}
-      {/* End Projects Section */}
 
       {/* Start Awards Section */}
       <Spacing lg="140" md="80" />
@@ -284,6 +145,61 @@ export default function DigitalAgencyHome() {
       </Div>
       <Spacing lg="145" md="80" />
       {/* End Awards Section */}
+
+      {/* Start Our Services */}
+      <Spacing lg="145" md="80" />
+      <Div className="container">
+        <SectionHeading
+          title="What we provide"
+          subtitle="Services"
+          variant="cs-style1 text-center"
+        />
+        <Spacing lg="65" md="45" />
+      </Div>
+      <Spacing lg="120" md="50" />
+      <Div className="container">
+        <Div className="row align-items-center">
+          <Div className="col-xl-5 col-lg-6">
+            <Div className="cs-radius_15 cs-shine_hover_1">
+              <img src="/images/service_img_1.jpg" alt="Service" className="cs-radius_15 w-100" />
+            </Div>
+            <Spacing lg="0" md="40" />
+          </Div>
+          <Div className="col-lg-6 offset-xl-1">
+            <h2 className="cs-font_50 cs-m0">Below our most design related services</h2>
+            <Spacing lg="50" md="30" />
+            <Div className="row">
+              <Div className="col-lg-6">
+                <Button btnLink="/service/service-details" btnText="Performance Optimization" variant="cs-type2" />
+                <Spacing lg="20" md="10" />
+                <Button btnLink="/service/service-details" btnText="Cross-Platform App Development" variant="cs-type2" />
+                <Spacing lg="20" md="10" />
+                <Button btnLink="/service/service-details" btnText="Native App Development" variant="cs-type2" />
+                <Spacing lg="20" md="10" />
+                <Button btnLink="/service/service-details" btnText="Progressive Web Apps (PWAs)" variant="cs-type2" />
+                <Spacing lg="20" md="10" />
+                <Button btnLink="/service/service-details" btnText="CMS-Based Solutions" variant="cs-type2" />
+                <Spacing lg="20" md="10" />
+                <Button btnLink="/service/service-details" btnText="Legacy System Modernization" variant="cs-type2" />
+              </Div>
+              <Div className="col-lg-6">
+                <Button btnLink="/service/service-details" btnText="IT Consulting & Digital Transformation" variant="cs-type2" />
+                <Spacing lg="20" md="10" />
+                <Button btnLink="/service/service-details" btnText="Maintenance & Support" variant="cs-type2" />
+                <Spacing lg="20" md="10" />
+                <Button btnLink="/service/service-details" btnText="DevOps & Cloud Services" variant="cs-type2" />
+                <Spacing lg="20" md="10" />
+                <Button btnLink="/service/service-details" btnText="Web Development" variant="cs-type2" />
+                <Spacing lg="20" md="10" />
+                <Button btnLink="/service/service-details" btnText="Custom Software Development" variant="cs-type2" />
+                <Spacing lg="20" md="10" />
+                <Button btnLink="/service/service-details" btnText="Mobile App Development" variant="cs-type2" />
+              </Div>
+            </Div>
+          </Div>
+        </Div>
+      </Div>
+      {/* End Our Services */}
 
       {/* Start Testimonial Section */}
       <TestimonialSlider />

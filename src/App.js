@@ -15,7 +15,8 @@ import DigitalAgencyHome from './components/Pages/DigitalAgencyHome';
 import Layout from './components/Layout';
 import CaseStudyDetailsPage from './components/Pages/CaseStudyDetailsPage';
 import FaqPage from './components/Pages/FaqPage';
-
+import BlogDetailsPage2 from './components/Pages/BlogDetailPage2';
+import BlogDetailsPage3 from './components/Pages/BlogDetailPage3';
 function App() {
   return (
     <>
@@ -35,6 +36,8 @@ function App() {
           />
           <Route path="blog" element={<BlogPage />} />
           <Route path="blog/:blogDetailsId" element={<BlogDetailsPage />} />
+          <Route path="blog2" element={<BlogDetailsPage2 />} />
+          <Route path="blog3" element={<BlogDetailsPage3 />} />
           <Route path="contact" element={<ContactPage />} />
           <Route path="team" element={<TeamPage />} />
           <Route path="team/:teamDetails" element={<TeamDetails />} />

@@ -33,36 +33,38 @@ export default function BlogDetailsPage() {
             {/* Start Details Post Content */}
             <Div className="cs-post cs-style2">
               <Div className="cs-post_thumb cs-radius_15">
-                <img src="/images/post_5.jpeg" alt="Post" className="w-100 cs-radius_15" />
+                <img src="/images/post_5.jpg" alt="Post" className="w-100 cs-radius_15" />
               </Div>
               <Div className="cs-post_info">
                 <Div className="cs-post_meta cs-style1 cs-ternary_color cs-semi_bold cs-primary_font">
-                  <span className="cs-posted_by">07 Mar 2022</span>
+                  <span className="cs-posted_by">05 Mar 2025</span>
                   <Link to="/blog" className="cs-post_avatar">Tech</Link>
                 </Div>
-                <h2 className="cs-post_title">Creative studio programm coming soon</h2>
-                <p>Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Tortor posuere ac ut consequat semper viverra nam libero justo. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Aliquam purus sit amet luctus venenatis lectus magna fringilla urna. Purus sit amet luctus venenatis lectus. Nunc aliquet bibendum enim facilisis. Pretium viverra suspendisse potenti nullam ac tortor vitae.</p>
+                <h2 className="cs-post_title">The Rise of AI: Threat or Tool?</h2>
+                <p>Artificial Intelligence is everywhere these days. It’s in the apps we use, the ads we see, even the way businesses reply to our messages. AI isn’t just a buzzword anymore—it’s real, and it’s changing things fast. But here's the big question: Should we be scared of it? Or should we be learning how to work with it?</p>
                 <blockquote className="cs-primary_font">
-                  But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, who expound the actual teachings of the great explorer of the truth, the master.
-                  <small>Loren Mulari</small>
+                It’s not about AI taking over. It’s about how we choose to work with it. The future belongs to those who adapt.
+                  <small>Sifotech</small>
                 </blockquote>
-                <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated.</p>
+                <p>Let’s be honest—we’ve all seen the headlines. “AI is coming for your job,” “Robots replacing humans,” and so on. It sounds scary, but the reality is much more balanced. Yes, AI is automating some tasks. It’s helping companies respond faster, sort through data quicker, and even predict what customers might do next. But it’s also creating new roles, tools, and opportunities for those ready to learn.</p>
                 <Div className="row">
                   <Div className="col-md-6">
-                    <img src="/images/blog_details_img_1.jpeg" alt="Blog Details" className="cs-radius_15 w-100" />
+                    <img src="/images/blog_details_img_1.jpg" alt="Blog Details" className="cs-radius_15 w-100" />
                     <Div className="cs-height_45 cs-height_lg_45" />
                   </Div>
                   <Div className="col-md-6">
-                    <img src="/images/blog_details_img_2.jpeg" alt="Blog Details" className="cs-radius_15 w-100" />
+                    <img src="/images/blog_details_img_2.jpg" alt="Blog Details" className="cs-radius_15 w-100" />
                     <Div className="cs-height_45 cs-height_lg_45" />
                   </Div>
                 </Div>
-                <h3>Art is powerful and imaginary source</h3>
-                <p>we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances.</p>
-                <p>So, blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain amount of people.</p>
+                <h3>AI Isn’t Replacing You—It’s Helping You Work Smarter</h3>
+                <p> AI is amazing at doing boring, repetitive stuff. Think data entry, simple customer support, or scheduling posts. That means humans get more time to do what we’re best at—being creative, thinking critically, and solving real-world problems.</p>
+                <p>At Sifotech, we help businesses tap into that power. Whether it’s building an AI-powered chatbot, streamlining how you get online orders, or helping you track what your customers really want—we create tools that make your life easier, not harder.So no, AI isn’t here to steal your job. But someone who knows how to use AI just might.</p>
               </Div>
             </Div>
             {/* End Details Post Content */}
+
+            
 
             {/* Start Comment Section */}
           </Div>

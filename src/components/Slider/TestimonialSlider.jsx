@@ -6,35 +6,35 @@ import Div from '../Div';
 import Spacing from '../Spacing';
 const testimonialData = [
   {
-    testimonialThumb: '/images/testimonial_1.jpeg',
+    testimonialThumb: '/images/testimonial_1.jpg',
     testimonialText:
-      'The Tawa Pulao was amazing! It had a perfect balance of spices, with the right amount of tanginess and smokiness. The vegetables retained their crunch, and the rice was perfectly cooked. It was like enjoying street-style pulao from Juhu Beach, but in the comfort of my home!',
-    avatarName: 'Neha Desai,Dentist ',
-    avatarDesignation: 'London',
+      'The Sifotech team is brilliant – responsive, efficient, and always ready to help. They’ve made our delivery operations smoother than ever.',
+    avatarName: 'Amelia Hughes',
+    avatarDesignation: '',
     ratings: '4',
   },
   {
-    testimonialThumb: '/images/testimonial_2.jpeg',
+    testimonialThumb: '/images/testimonial_2.jpg',
     testimonialText:
       'Sifotech took our digital presence to new heights with their seamless marketing strategies. They optimized our weosite, created amazing content, and ran ads that really resonated with bur audience.Sales and engagement skyrocketed, and thanks to their expertise, we ve been able to expand globally.',
-    avatarName: 'Nand Kumar Patil',
-    avatarDesignation: 'Fresh O Need (CEO)',
+    avatarName: 'Navdeep',
+    avatarDesignation: '',
     ratings: '5',
   },
   {
-    testimonialThumb: '/images/testimonial_3.jpeg',
+    testimonialThumb: '/images/testimonial_3.jpg',
     testimonialText:
       'Sifotech has done an excellent job with our social media management, content creation, and lead generation. Their creative approach and consistent efforts have significantly increased our online visibility and brought in quality leads. We’re extremely happy with the results and their professional service.',
-    avatarName: 'Dr. Punkesh',
-    avatarDesignation: 'Advance Skin Hair and Laser Clinic',
+    avatarName: ' Rachel Lewis',
+    avatarDesignation: '',
     ratings: '4.5',
   },
   {
-    testimonialThumb: '/images/testimonial_1.jpeg',
+    testimonialThumb: '/images/testimonial_4.jpg',
     testimonialText:
-      'Corcus Studio LLP delivered exactly what we needed-an effective website, high-converting landing page, and targeted ad management. Their work has helped us generate quality leads specifically for our Salesforce courses. Their expertise and attention to detail have truly boosted our business.',
-    avatarName: 'Ashish',
-    avatarDesignation: 'Marshal Technologyl',
+      'From start to finish, working with Sifotech was a breeze. They delivered on time, communicated clearly, and gave us exactly what we needed. Highly recommended for any business looking to grow online.',
+    avatarName: ' Ben Harris',
+    avatarDesignation: '',
     ratings: '4.0',
   },
 ];
