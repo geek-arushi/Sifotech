@@ -5,36 +5,36 @@ const postData = [
     postHref: '/blog/blog-details',
     subtitle:
       'The first step is to acknowledge your fear rather than suppress it. It’s completely normal to feel uncertain, especially when your work is so personal. Recognising those fears allows you to move past them. Instead of waiting for the perfect moment, keep creating — even when you’re unsure.....',
-    authorName: 'Arino Admin',
-    authorImg: '/images/avatar_2.jpeg',
-    authorDesignation: 'London, United Kindom',
-    date: '07',
-    month: 'Mar',
-    year: '2025',
+    // authorName: 'Arino Admin',
+    // authorImg: '',
+    // authorDesignation: '',
+    // date: '07',
+    // month: 'Mar',
+    // year: '2025',
   },
   {
     title: 'Why Your Business needs Social Media marketing in 2025',
     postHref: '/blog2',
     subtitle:
       'Social Media Marketing is not just about posting photos anymore—its how modern businesses connect grow and stay relevant. Whether you are a local store or an online brand being active on platforms like Instagram Facebook and LinkedIn gives you visibility trust and real engagement.',
-    authorName: 'David Milar',
-    authorImg: '/images/avatar_3.jpeg',
-    authorDesignation: 'London, United Kindom',
-    date: '15',
-    month: 'Mar',
-    year: '2025',
+    // authorName: 'David Milar',
+    // authorImg: '/images/avatar_3.jpeg',
+    // authorDesignation: 'London, United Kindom',
+    // date: '15',
+    // month: 'Mar',
+    // year: '2025',
   },
   {
     title: 'Local SEO is a very essential role play for new websites',
     postHref: '/blog3',
     subtitle:
       'Local SEO plays a crucial role in helping new websites gain visibility in their immediate market. When you are just starting out, getting found by nearby customers can make all the difference. Optimising your site for local search ensures that people in your area can easily discover your business',
-    authorName: 'Jhone Doe',
-    authorImg: '/images/avatar_4.jpeg',
-    authorDesignation: 'London, United Kindom',
-    date: '20',
-    month: 'Mar',
-    year: '2025',
+    // authorName: 'Jhone Doe',
+    // authorImg: '/images/avatar_4.jpeg',
+    // authorDesignation: 'London, United Kindom',
+    // date: '20',
+    // month: 'Mar',
+    // year: '2025',
   },
 ];
 
@@ -59,11 +59,11 @@ export default function PostList() {
               </h2>
               <div className="cs-post_subtitle">{item.subtitle}</div>
               <div className="cs-post_meta">
-                <div className="cs-post_avatar">
-                  <div className="cs-post_avatar_img">
-                    <img src={item.authorImg} alt="Avatar" />
+                <div className="">
+                  <div className="">
+                    <img src={item.authorImg} alt="" />
                   </div>
-                  <div className="cs-post_avatar_info">
+                  <div className="">
                     <h4>{item.authorName}</h4>
                     <p>{item.authorDesignation}</p>
                   </div>
