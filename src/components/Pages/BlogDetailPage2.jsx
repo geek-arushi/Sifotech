@@ -5,7 +5,7 @@ import { pageTitle } from '../../helper'
 import Cta from '../Cta'
 import PageHeading from '../PageHeading'
 import Div from '../Div'
-import Sidebar from '../Sidebar.jsx'
+
 import Spacing from '../Spacing'
 
 export default function BlogDetailsPage2() {
@@ -63,16 +63,6 @@ export default function BlogDetailsPage2() {
               </Div>
             </Div>
             {/* End Details Post Content */}
-
-            
-
-            {/* Start Comment Section */}
-          {/* </Div>
-          <Div className="col-xl-3 col-lg-4 offset-xl-1"> */}
-            {/* Start Sidebar */}
-            {/* <Spacing lg='0' md='80'/>
-            <Sidebar /> */}
-            {/* End Sidebar */}
           </Div>
         </Div>
       </Div>
