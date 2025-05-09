@@ -67,11 +67,11 @@ export default function BlogDetailsPage2() {
             
 
             {/* Start Comment Section */}
-          </Div>
-          <Div className="col-xl-3 col-lg-4 offset-xl-1">
+          {/* </Div>
+          <Div className="col-xl-3 col-lg-4 offset-xl-1"> */}
             {/* Start Sidebar */}
-            <Spacing lg='0' md='80'/>
-            <Sidebar />
+            {/* <Spacing lg='0' md='80'/>
+            <Sidebar /> */}
             {/* End Sidebar */}
           </Div>
         </Div>
