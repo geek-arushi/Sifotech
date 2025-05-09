@@ -34,6 +34,11 @@ const serviceMenu = [
     title: 'Brand Strategy & Consulting',
     href: '/service/service-details',
   },
+  {
+    title: 'More Services...',
+    href: '/service/service-details',
+  },
+
 ];
 
 export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
@@ -47,7 +52,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
                 <TextWidget
                   logoSrc="/images/logo.png"
                   logoAlt="Logo"
-                  text="At Sifotech, we blend strategy, creativity, and technology to build powerful digital experiences that grow businesses."
+                  text="At Sifotech, we blend strategy, creativity, and technology to build powerful digital experiences that grow businesses.We strive to empower businesses with the tools and strategies they need to succeed in a digitally connected world."
                 />
                 <SocialWidget />
               </Div>
