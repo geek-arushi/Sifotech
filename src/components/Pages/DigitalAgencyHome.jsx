@@ -17,7 +17,7 @@ import PostList from '../Post/PostList';
 
 const heroSocialLinks = [
   {
-    name: 'mail',
+    name: '',
     links: '/',
   },
 ];
@@ -68,7 +68,7 @@ export default function DigitalAgencyHome() {
         title="We Are <span>S</span>ifotech<br />Digital Agency"
         subtitle="Solving real problems with creative digital solutions – we design, develop, and deliver top-tier results for today and tomorrow.s"
         scrollDownId="#service"
-        socialLinksHeading="Follow Us"
+        socialLinksHeading=""
         heroSocialLinks={heroSocialLinks}
         phoneNumber="contact@sifotech.co.uk"
         email="hr@sifotech.co.uk"
@@ -125,29 +125,8 @@ export default function DigitalAgencyHome() {
         </Div>
       </Div>
       {/* End About Section */}
-
-      {/* Start Awards Section */}
-      <Spacing lg="140" md="80" />
-      <Div className="container">
-        <Div className="row">
-          <Div className="col-xl-4">
-            <SectionHeading
-              title="We get multiple projects"
-              subtitle="Our Services"
-              variant="cs-style1"
-            />
-            <Spacing lg="90" md="45" />
-          </Div>
-          <Div className="col-xl-7 offset-xl-1">
-            <TimelineSlider />
-          </Div>
-        </Div>
-      </Div>
-      <Spacing lg="145" md="80" />
-      {/* End Awards Section */}
-
-      {/* Start Our Services */}
-      <Spacing lg="145" md="80" />
+       {/* Start Our Services */}
+       <Spacing lg="145" md="80" />
       <Div className="container">
         <SectionHeading
           title="What we provide"
@@ -163,7 +142,7 @@ export default function DigitalAgencyHome() {
             <Div className="cs-radius_15 cs-shine_hover_1">
               <img src="/images/service_img_1.jpg" alt="Service" className="cs-radius_15 w-100" />
             </Div>
-            <Spacing lg="0" md="40" />
+            <Spacing lg="0" md="30" />
           </Div>
           <Div className="col-lg-6 offset-xl-1">
             <h2 className="cs-font_50 cs-m0">Below our most design related services</h2>
@@ -200,6 +179,28 @@ export default function DigitalAgencyHome() {
         </Div>
       </Div>
       {/* End Our Services */}
+
+      {/* Start Awards Section */}
+      <Spacing lg="140" md="80" />
+      <Div className="container">
+        <Div className="row">
+          <Div className="col-xl-4">
+            <SectionHeading
+              title="We get multiple projects"
+              subtitle="Our Services"
+              variant="cs-style1"
+            />
+            <Spacing lg="90" md="45" />
+          </Div>
+          <Div className="col-xl-7 offset-xl-1">
+            <TimelineSlider />
+          </Div>
+        </Div>
+      </Div>
+      <Spacing lg="145" md="80" />
+      {/* End Awards Section */}
+
+     
 
       {/* Start Testimonial Section */}
       <TestimonialSlider />

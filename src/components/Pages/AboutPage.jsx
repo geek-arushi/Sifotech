@@ -53,7 +53,9 @@ export default function AboutPage() {
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
-              We’re not just a digital agency — we’re your growth catalyst. At Corcus Studio LLP, we specialize in performance marketing, SEO, social media marketing, and brand strategy tailored to help businesses thrive in today’s fast-evolving digital space.
+              At Sifotech, we are passionate about driving digital transformation and empowering businesses to thrive in the digital age. Based in the UK, we specialize in providing cutting-edge digital marketing and technology solutions that help our clients achieve sustainable growth and digital success. With a deep understanding of the ever-evolving digital landscape, we leverage our technical expertise and creative insights to deliver impactful solutions that make a lasting difference.
+
+
               </p>
               <Spacing lg="30" md="30" />
               <Div className="cs-separator cs-accent_bg"></Div>
@@ -117,16 +119,16 @@ export default function AboutPage() {
           </Div>
           <Div className="col-xl-6 offset-xl-1 col-lg-6">
             <SectionHeading
-              title="A team of innovators, strategists & digital growth experts"
+              title="Why Sifotech is Your Digital Growth Partner"
               subtitle="Why Choose Us"
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
-              At Corcus Studio LLP, our strength lies in our people — a handpicked team of digital marketers, designers, developers, and strategists with a proven track record across industries.
+              Our mission is to bridge the gap between businesses and their digital potential by offering innovative technology solutions and data-driven marketing strategies. We aim to transform the digital journey of businesses by enhancing their online presence, optimizing performance, and building meaningful customer relationships.
               </p>
               <Spacing lg="15" md="15" />
               <p className="cs-m0">
-              We combine creativity with analytics, and strategy with execution. From SEO and performance marketing to SMM and brand development, our approach is focused on outcomes — not just output.
+              Our vision is to become a globally recognized leader in digital transformation, known for our commitment to excellence, customer satisfaction, and continuous innovation. We strive to empower businesses with the tools and strategies they need to succeed in a digitally connected world.
               </p>
               <Spacing lg="30" md="30" />
               <Div className="cs-separator cs-accent_bg"></Div>
